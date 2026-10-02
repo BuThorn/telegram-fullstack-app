@@ -1,0 +1,8 @@
+.app-shell {
+  min-height: 100vh;
+  background: linear-gradient(180deg, var(--color-1) 0%, var(--color-2) 28%, var(--color-4) 100%);
+}
+
+[data-theme='light'] .app-shell {
+  background: linear-gradient(180deg, #f7f7f4 0%, var(--color-2) 26%, var(--color-1) 100%);
+}
